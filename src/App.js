@@ -3,28 +3,45 @@ import "./styles.css";
 
 const bookDB = {
   javascript: [
-    { name: "A Smarter Way to Learn JavaScript", rating: "4.1/5" },
-    { name: "You Don't Know JS", rating: "3.5/5" }
+    {
+      name: "A Smarter Way to Learn JavaScript",
+      rating: "4.1/5",
+      desc: "Simple book on javascript"
+    },
+    {
+      name: "You Don't Know JS",
+      rating: "3.5/5",
+      desc: "Simple book on javascript"
+    },
+    {
+      name: "A Smarter Way to Learn JavaScript",
+      rating: "4.1/5",
+      desc: "Simple book on javascript"
+    }
   ],
 
   fiction: [
     {
       name: "The Hobbit",
-      rating: "4.2/5"
+      rating: "4.2/5",
+      desc: "Simple book on javascript"
     },
     {
       name: "Atlas Shrugged",
-      rating: "3.7/5"
+      rating: "3.7/5",
+      desc: "Simple book on javascript"
     }
   ],
   selfdevelp: [
     {
       name: "Rich Dad Poor Dad",
-      rating: "4.1/5"
+      rating: "4.1/5",
+      desc: "Simple book on javascript"
     },
     {
       name: "12 Rules for Life",
-      rating: "4.5/5"
+      rating: "4.5/5",
+      desc: "Simple book on javascript"
     }
   ]
 };
@@ -53,6 +70,7 @@ export default function App() {
         return (
           <div className="books">
             <h3>{item.name}</h3>
+            <h4>{item.desc}</h4>
             <p>{item.rating}</p>
           </div>
         );

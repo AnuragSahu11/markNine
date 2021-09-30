@@ -30,6 +30,11 @@ const bookDB = {
       name: "Atlas Shrugged",
       rating: "3.7/5",
       desc: "Simple book on javascript"
+    },
+    {
+      name: "Atlas Shrugged",
+      rating: "3.7/5",
+      desc: "Simple book on javascript"
     }
   ],
   selfdevelp: [

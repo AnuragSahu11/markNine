@@ -33,7 +33,7 @@ const bookDB = {
     },
     {
       name: "A Game of Thrones",
-      rating: "3.7/5",
+      rating: "4.8/5",
       desc: "A cruel fantasy world with supernatural and political elements"
     }
   ],
@@ -50,7 +50,7 @@ const bookDB = {
     },
     {
       name: "How to not give a F***",
-      rating: "4.5/5",
+      rating: "4.9/5",
       desc: "Free yourself from the thought 'What will they think?'"
     }
   ]

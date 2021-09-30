@@ -6,17 +6,17 @@ const bookDB = {
     {
       name: "A Smarter Way to Learn JavaScript",
       rating: "4.1/5",
-      desc: "Simple book on javascript"
+      desc: "Simple and clean approach to javascript."
     },
     {
       name: "You Don't Know JS",
       rating: "3.5/5",
-      desc: "Simple book on javascript"
+      desc: "Advanced concept and current industry trends."
     },
     {
-      name: "A Smarter Way to Learn JavaScript",
-      rating: "4.1/5",
-      desc: "Simple book on javascript"
+      name: "JS for Dummies",
+      rating: "4.0/5",
+      desc: "Very beginner's friendly book for starters."
     }
   ],
 
@@ -24,29 +24,34 @@ const bookDB = {
     {
       name: "The Hobbit",
       rating: "4.2/5",
-      desc: "Simple book on javascript"
+      desc: "A Hobbit's exciting journey comprising of trolls,goblins. "
     },
     {
       name: "Atlas Shrugged",
       rating: "3.7/5",
-      desc: "Simple book on javascript"
+      desc: "Story of an alternate universe Earth under dictatorship."
     },
     {
-      name: "Atlas Shrugged",
+      name: "A Game of Thrones",
       rating: "3.7/5",
-      desc: "Simple book on javascript"
+      desc: "A cruel fantasy world with supernatural and political elements"
     }
   ],
   selfdevelp: [
     {
       name: "Rich Dad Poor Dad",
       rating: "4.1/5",
-      desc: "Simple book on javascript"
+      desc: "Learn to manage your time,money and resources in this book."
     },
     {
       name: "12 Rules for Life",
       rating: "4.5/5",
-      desc: "Simple book on javascript"
+      desc: "Jordan Peterson's best seller on how to live life?"
+    },
+    {
+      name: "How to not give a F***",
+      rating: "4.5/5",
+      desc: "Free yourself from the thought 'What will they think?'"
     }
   ]
 };
